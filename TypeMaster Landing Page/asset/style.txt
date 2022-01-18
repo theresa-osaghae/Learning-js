@@ -1,0 +1,15 @@
+color: 
+rgb(241, 103, 24)
+rgb(22, 37, 66)
+rgb(123, 139, 173)
+
+or
+
+--orange-1: #f16718;
+--orange-2: #ff9b62;
+--blue-1: #162542;
+--blue-2: #7b8bad;
+--grey-1: #e8eff2;
+--white: #ffff;
+
+font: Barlow, San-serif

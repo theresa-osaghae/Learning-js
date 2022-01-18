@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:'hdr hdr hdr'
+    'sdr ct1 ct1'
+    'sdr ct2 ct3'
+    'ftr ftr ftr';
+}
+.header{
+    grid-area: hdr;
+    background-color: red
+}
+.sidebar{
+    grid-area: sdr;
+    background-color: royalblue;
+
+}
+.content1{
+    grid-area: ct1;
+    background-color: sandybrown;
+
+}
+.content2{
+    grid-area: ct2;
+    background-color: springgreen;
+
+}
+.content3{
+    grid-area: ct3;
+    background-color: violet;
+}
+.footer{
+    grid-area: ftr;
+    background-color: tomato;
+}

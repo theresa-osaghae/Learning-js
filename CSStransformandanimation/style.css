@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+}
+
+
+.box {
+    height:150px;
+    width: 150px;
+    background-color: red;
+    text-align: center;
+    transition: all 2s ease in 4s;
+
+}
+.ball{
+    background-color: rgb(115, 5, 5);
+    position: relative;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    /* bottom: -90%; */
+}
+.floor{
+    background-color: rgb(9, 88 9);
+    height:1%;
+    width: 100%;
+}
+
+.box:hover.ball{
+    /* transform: translateY(100%);
+    transform: translateX(100px);
+    transform: translate(100%, 100%);
+    transform: translate(X Value, Y Value);
+    transform: rotate(-80deg);
+    transform: scale(1.1);
+    transform: skew(-50deg, -20deg); */
+    animation:bounce 2s ease-in;
+    animation-iteration-count: infinite ;
+}
+.box:hover{
+    width: 300px;
+    padding: 30px;
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0%);
+    }
+    10%{
+        transform: translateY(-30%);
+    }
+    20%{
+        transform: translateY(-70%);
+    }
+    30%{
+        transform: translateY(-140%);
+    }
+    40%{
+        transform: translateY(-160%);
+    }
+
+}

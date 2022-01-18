@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: royalblue;
+    padding: 16px 32px;
+    position: sticky;
+    top: 0;
+    offset: 0;
+    z-index: 100;
+
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding:50px 78px;
+
+}
+.box-item{
+    height: 400px;
+    background-color: salmon;
+    z-index: 15;
+}
+.chat-btn{
+    height:68px;
+    width: 68px;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: sticky;
+    bottom: 20px;
+    left: 20px;
+}
+.box-ball{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(54, 83, 243);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
