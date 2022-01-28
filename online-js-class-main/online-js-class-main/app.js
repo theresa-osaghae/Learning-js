@@ -20,23 +20,31 @@ console.log("Hello World");
 */
 
 // Declaring Variables using var
-var name = "john appleman";
+// var name = "john appleman";s
 
 // Declaring Variables using let
-let name = "Mary Dawson";
+// let name = "Mary Dawson";
 
 // Declaring Variables using const
-const name = "Mary Dawson";
+// const name = "Mary Dawson";
 
 // alert(name);
 
 // Conditional Statements
 const fruit = "apple";
 
-if (fruit === "banana") {
-  console.log("Fruit");
-} else if (fruit === "apple") {
-  console.log("apple");
-} else {
-  console.log("orange");
-}
+// if (fruit === "banana") {
+//   console.log("Fruit");
+// } else if (fruit === "apple") {
+//   console.log("apple");
+// } else {
+//   console.log("orange");
+// }
+
+// alert(), prompt() and confirm() are all used for getting user input from the browser
+
+// const answer = prompt("What is your name?");
+
+// alert(answer);
+
+confirm("Are you a Nigerian");

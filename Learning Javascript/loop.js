@@ -31,3 +31,13 @@ while(index< shoes.length){
     i++;
     }while(i < 3);
 
+    const object ={
+        a: 1,
+        b: 2,
+        c: 3,
+        d: 4,
+        e: 5,
+    };
+    for (const key in object){
+        console.log ('${key}: ${object[key]}');
+     }
